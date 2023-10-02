@@ -1,0 +1,73 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.HeaderContainer{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.HeaderContainer .HeaderItem{
+    display: flex;
+    width: 20%;
+}
+.HeaderContainer .HeaderItem img{
+    width: 25px;
+    padding-right: 10px;
+}
+.HeaderContainer .HeaderItem  p{
+    font-size: 16px;
+    font-weight: bold
+}
+
+
+
+.Banner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Banner img{
+    width: 100%;
+}
+.Banner__left{
+    width: 70%;
+   
+}
+.Banner__right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+ /* CSS PRODUCTLIST */
+.products_container{
+    width: 1200px;
+    margin: auto;
+}
+.ListProduct{
+    display: flex;
+    justify-content: space-between;
+}
+.product__Item{
+    width: 18%;
+}
+.product__Item img{
+margin: auto;
+}
+.product__Item h3{
+font-size:15px;
+margin: 5px 0;
+}
+.product__Item p{
+font-size:15px;
+margin: 5px 0;
+}
+.product__Item p:first-of-type{
+font-size:20px;
+color: red;
+font-weight: bold;
+}
+
